@@ -6,7 +6,7 @@
           <nuxt-link to="/" class="text-lg">Home</nuxt-link>
         </li>
         <li class="inline px-2">
-          <nuxt-link to="/" class="text-lg">Iphones</nuxt-link>
+          <nuxt-link to="/iphones" class="text-lg">Iphones</nuxt-link>
         </li>
         <li class="inline px-2">
           <nuxt-link to="/" class="text-lg">Cart()</nuxt-link>
