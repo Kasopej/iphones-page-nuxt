@@ -17,7 +17,7 @@
       </ul>
       <ul class="auth-nav nav-list ml-auto mr-2 p-3">
         <li class="inline px-2">
-          <nuxt-link to="/" class="text-lg">Login</nuxt-link>
+          <nuxt-link to="/login" class="text-lg">Login</nuxt-link>
         </li>
       </ul>
     </nav>

@@ -5,3 +5,11 @@ nav {
         }
     }
 }
+.col-100 {
+    flex-basis: 100%;
+    min-width: 100%;
+}
+.col-50 {
+    flex-basis: 50%;
+    min-width: 50%;
+}
