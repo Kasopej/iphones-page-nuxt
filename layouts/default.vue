@@ -21,7 +21,9 @@
         </li>
       </ul>
     </nav>
-    <slot></slot>
+    <main>
+      <slot></slot>
+    </main>
   </div>
 </template>
 
