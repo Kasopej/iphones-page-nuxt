@@ -37,6 +37,8 @@
   useHead({
     title: "App Login",
   });
+
+  const router = useRouter();
   const loginEntry = reactive({
     email: "eve.holt@reqres.in",
     password: "cityslicka",
@@ -49,6 +51,7 @@
         body: loginEntry,
       }).then((res) => {
         useAuth().value.authenticated = true;
+        router.push({ name: "index" });
       });
     }
   }
