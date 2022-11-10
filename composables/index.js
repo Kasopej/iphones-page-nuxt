@@ -1,1 +1,1 @@
-export { useAuth } from "./state/auth";
+export { useAuth, useToken } from "./state/auth";

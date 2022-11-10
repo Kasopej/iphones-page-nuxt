@@ -50,6 +50,7 @@
         method: "post",
         body: loginEntry,
       }).then((res) => {
+        useToken().value = res.data.value.token;
         useAuth().value.authenticated = true;
         router.push({ name: "index" });
       });
