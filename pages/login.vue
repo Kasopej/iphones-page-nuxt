@@ -48,7 +48,7 @@
         method: "post",
         body: loginEntry,
       }).then((res) => {
-        console.log(res.data.value);
+        useAuth().value.authenticated = true;
       });
     }
   }
